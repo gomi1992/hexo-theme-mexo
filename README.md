@@ -1,43 +1,43 @@
-# NexT
+# MeXo
 
-> 精于心，简于形
+> A Hexo theme forcked from [NexT](https://github.com/iissnan/hexo-theme-next)
 
-<a href="http://notes.iissnan.com" target="_blank">在线预览 Preview</a> | <a href="http://theme-next.iissnan.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+[NexT使用文档](http://theme-next.iissnan.com/)
 
-[![Join the chat at https://gitter.im/iissnan/hexo-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iissnan/hexo-theme-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Discription
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+> 脑中时不时会蹦出一个新的想法，想尝鲜，便只能自己动手实现
+
+[Next在线预览](http://notes.iissnan.com/) | [MeXo在线预览](http://blog.manerfan.com)
+
+## Extensions
+
+MeXo在NexT基础上，扩展了诸多功能
+
+### Echarts
+
+Being Developed
+
+### flowcharts
+
+Being Developed
+
+### squence-diagrams
+
+Being Developed
+
+### MathJax
+
+Being Developed
+
+## Todo
+
+- [ ] [Echarts](http://echarts.baidu.com/)
+- [ ] [flowchart](http://flowchart.js.org/)
+- [ ] [squence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
+- [ ] [MathJax](https://www.mathjax.org/)
 
 
-## 浏览器支持 Browser support
+## License
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
-
-
-## 贡献 Contributing
-
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的`Pull Request`。
-
-Any types of contribution are welcome. Thanks.
-
-## 开发 Development
-
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
-
-## [开发历史 Changelog](https://github.com/iissnan/hexo-theme-next/wiki/Changelog)
-
-[![hexo-image]][hexo-url]
-[![bower-image]][bower-url]
-[![jquery-image]][jquery-url]
-[![velocity-image]][velocity-url]
-
-[hexo-image]: http://img.shields.io/badge/Hexo-2.4+-2BAF2B.svg?style=flat-square
-[hexo-url]: http://hexo.io
-[bower-image]: http://img.shields.io/badge/Bower-*-2BAF2B.svg?style=flat-square
-[bower-url]: http://bower.io
-[jquery-image]: https://img.shields.io/badge/jquery-2.1-2BAF2B.svg?style=flat-square
-[jquery-url]: http://jquery.com/
-[velocity-image]: https://img.shields.io/badge/Velocity-1.2-2BAF2B.svg?style=flat-square
-[velocity-url]: http://julian.com/research/velocity/
+[MIT License](https://github.com/ManerFan/hexo-theme-mexo/blob/master/LICENSE)
