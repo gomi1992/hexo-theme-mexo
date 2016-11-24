@@ -20,3 +20,5 @@
   </a>
 </div>
 {% endif %}
+
+{% include 'footer/custom-footer.swig' %}
