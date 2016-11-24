@@ -252,6 +252,10 @@ mathjax:
   per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
+# Echarts Support
+echarts:
+  enable: false
+  cdn: //echarts.baidu.com/dist/echarts.min.js
 
 # Swiftype Search API Key
 #swiftype_key:
