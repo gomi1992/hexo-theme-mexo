@@ -15,8 +15,10 @@
 
 <div class="theme-info">
   {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.{{ theme.scheme }}
+  <a class="theme-link" href="https://github.com/ManerFan/hexo-theme-mexo">
+    NexT.MeXo.{{ theme.scheme }}
   </a>
 </div>
 {% endif %}
+
+{% include 'footer/custom-footer.swig' %}

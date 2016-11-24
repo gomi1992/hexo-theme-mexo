@@ -9,6 +9,12 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+
+  {% set internal_jquery_script = url_for(theme.vendors._internal) + '/' + 'jquery/index.js?v=2.1.3' %}
+  <script type="text/javascript" src="{{ theme.vendors[jquery] | default(internal_jquery_script) }}"></script>
+
+  {% set internal_underscore_script = url_for(theme.vendors._internal) + '/' + 'underscore/underscore-min.js?v=1.8.3' %}
+    <script type="text/javascript" src="{{ theme.vendors[underscore] | default(internal_underscore_script) }}"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
@@ -69,6 +75,7 @@
   {% include '_scripts/third-party/tinysou.swig' %}
   {% include '_scripts/third-party/localsearch.swig' %}
   {% include '_scripts/third-party/mathjax.swig' %}
+  {% include '_scripts/third-party/echarts.swig' %}
   {% include '_scripts/third-party/lean-analytics.swig' %}
   {% include '_scripts/baidu-push.swig' %}
   {% include '_components/algolia-search/assets.swig' %}
