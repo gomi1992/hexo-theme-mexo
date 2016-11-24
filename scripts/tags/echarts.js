@@ -24,7 +24,7 @@ const _ = require('underscore');
 
 // Usage: {% echarts [style-height] [style-width] %} echarts-option goes here {% endecharts %}
 
-const echartshtml = `<div id="<%= id %>" style="width:<%= width %>;height:<%= height %>;margin: 0 auto"></div>
+const echartshtml = `<div id="<%= id %>" style="width:<%= width %>;height:<%= height %>;margin: 0 auto">Echarts should be replace here.</div>
 <script type="text/x-echarts-config">
   (function($){
     var instance_<%= id %> = echarts.init(document.getElementById('<%= id %>'));
