@@ -32,10 +32,10 @@ Being Developed
 
 ## Todo
 
-- [ ] [Echarts](http://echarts.baidu.com/)
-- [ ] [flowchart](http://flowchart.js.org/)
-- [ ] [squence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
-- [ ] [MathJax](https://www.mathjax.org/)
+- [x] [Echarts](http://echarts.baidu.com/)
+- [x] [flowchart](http://flowchart.js.org/)
+- [x] [squence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
+- [x] [MathJax](https://www.mathjax.org/)
 
 
 ## License
