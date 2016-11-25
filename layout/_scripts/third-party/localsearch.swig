@@ -112,6 +112,7 @@
       } else {
         proceedsearch();
       };
+      $('body').css('overflow', 'hidden');
       $('#local-search-input').val('').focus();
       $('#local-search-result').html('<h2>给小编个关键词呗~</h2>');
     });
