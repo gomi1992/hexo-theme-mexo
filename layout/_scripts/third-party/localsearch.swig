@@ -11,7 +11,7 @@
     // monitor main search box;
 
     function proceedsearch() {
-      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $(".popoverlay").toggle();
       $('.popup').toggle();
     }
     // search function;
@@ -25,6 +25,7 @@
           // get the contents from search data
           isfetched = true;
           $('.popup').detach().appendTo('.header-inner');
+          $('.popoverlay').detach().appendTo('.header-inner');
           var datas = $( "entry", xmlResponse ).map(function() {
             return {
               title: $( "title", this ).text(),
@@ -115,9 +116,9 @@
       $('#local-search-result').html('<h2>给小编个关键词呗~</h2>');
     });
 
-    $('.popup-btn-close, .btn-close').click(function(e){
+    $('.popup-btn-close, .btn-close, .popoverlay').click(function(e){
       $('.popup').hide();
-      $(".popoverlay").remove();
+      $(".popoverlay").hide();
       $('body').css('overflow', '');
     });
     $('.popup').click(function(e){

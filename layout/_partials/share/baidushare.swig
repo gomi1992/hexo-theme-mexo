@@ -22,12 +22,12 @@
       "share": {
         "bdSize": "16",
         "bdStyle": "1"
-      },
+      }/*,
       "image": {
         "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
         "viewText": "分享到：",
         "viewSize": "16"
-      }
+      }*/
     }
   </script>
 {% elseif theme.baidushare.type === "slide" %}
@@ -38,12 +38,12 @@
         "bdMini": "1",
         "bdMiniList": false,
         "bdPic": ""
-      },
+      }/*,
       "image": {
         "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
         "viewText": "分享到：",
         "viewSize": "16"
-      },
+      }*/,
       "slide": {
         "bdImg": "5",
         "bdPos": "left",
