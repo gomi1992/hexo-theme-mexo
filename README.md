@@ -16,19 +16,32 @@ MeXo在NexT基础上，扩展了诸多功能
 
 ### Echarts
 
-Being Developed
+Usage: {% echarts [style-height] [style-width] %} echarts-option goes here {% endecharts %}   
+Add {% enableecharts %} to the bottom of your Post
+
+Detail: [HEXO 百度Echarts插件](http://manerfan.com/2016/11/24/hexo-tags-echarts/)
 
 ### flowcharts
 
-Being Developed
+Usage: {% flowchart %} flowchart-diagram-expression goes here {% endflowchart %}    
+Add {% enablediagram %} to the bottom of your Posts
+
+Detail: [HEXO 流程图/序列图插件](http://manerfan.com/2016/11/24/hexo-tags-diagram/)
 
 ### squence-diagrams
 
-Being Developed
+Usage: {% sequence %} sequence-diagram-expression goes here {% endsequence %}    
+Add {% enablediagram %} to the bottom of your Posts
+
+Detail: [HEXO 流程图/序列图插件](http://manerfan.com/2016/11/24/hexo-tags-diagram/)
 
 ### MathJax
 
-Being Developed
+Inline: $ LaTeX Mathematics goes here $    
+Block: $$ LaTeX Mathematics goes here $$    
+Add {% enablemathjax %} to the bottom of your Posts
+
+Detail: [HEXO MathJax插件](http://manerfan.com/2016/11/24/hexo-tags-mathjax/)
 
 ## Todo
 
@@ -36,7 +49,6 @@ Being Developed
 - [x] [flowchart](http://flowchart.js.org/)
 - [x] [squence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
 - [x] [MathJax](https://www.mathjax.org/)
-
 
 ## License
 

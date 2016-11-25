@@ -21,7 +21,7 @@
       },
       "share": {
         "bdSize": "16",
-        "bdStyle": "0"
+        "bdStyle": "1"
       },
       "image": {
         "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],

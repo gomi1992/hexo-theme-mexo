@@ -95,8 +95,8 @@
                 }
               })};
             str += "</ul>";
-            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            if (matchcounts == 0) { str = '<h2>小编跨过千山万水也没找到您要的结果~</h2>' }
+            if (keywords == "") { str = '<h2>给小编个关键词呗~</h2>' }
             $resultContent.innerHTML = str;
           });
           proceedsearch();
@@ -111,9 +111,11 @@
       } else {
         proceedsearch();
       };
+      $('#local-search-input').val('').focus();
+      $('#local-search-result').html('<h2>给小编个关键词呗~</h2>');
     });
 
-    $('.popup-btn-close').click(function(e){
+    $('.popup-btn-close, .btn-close').click(function(e){
       $('.popup').hide();
       $(".popoverlay").remove();
       $('body').css('overflow', '');
