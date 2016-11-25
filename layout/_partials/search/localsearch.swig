@@ -5,3 +5,4 @@
  <span class="popup-btn-close">x</span>
  <button class="btn btn-close">关闭</button>
 </div>
+<div class="popoverlay"></div>
