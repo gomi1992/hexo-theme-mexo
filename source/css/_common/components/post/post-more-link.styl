@@ -1,14 +1,16 @@
 .post-more-link {
   margin-top: 50px;
 
-  .btn {
+  .btn:not(bootcss) {
     color: $read-more-color;
     font-size: $read-more-font-size;
     background: $read-more-bg-color;
     border-radius: $read-more-border-radius;
     line-height: 2;
-  }
-  .btn:hover {
-    @extend .btn:hover;
+    &:hover {
+      border-color: $btn-default-hover-border-color;
+      color: $btn-default-hover-color;
+      background: $btn-default-hover-bg;
+    }
   }
 }

@@ -1,15 +1,24 @@
 // Custom styles.
 
+/* flowchart sequence-diagram 自动居中 */
 .diagram {
   svg {
     display: block;
     margin: auto;
+    /* 显示diagram，则把错误提示隐藏 */
     + span {
       display: none;
     }
   }
 }
 
+/* 隐藏多说分享 */
 .ds-sync {
   display: none !important;
+}
+
+/* bootcss alert */
+.alert {
+  padding: 10px;
+  border-left-width: 10px;
 }

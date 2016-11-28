@@ -7,6 +7,8 @@
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
 <head>
+  <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
 
@@ -14,7 +16,7 @@
   <script type="text/javascript" src="{{ theme.vendors[jquery] | default(internal_jquery_script) }}"></script>
 
   {% set internal_underscore_script = url_for(theme.vendors._internal) + '/' + 'underscore/underscore-min.js?v=1.8.3' %}
-    <script type="text/javascript" src="{{ theme.vendors[underscore] | default(internal_underscore_script) }}"></script>
+  <script type="text/javascript" src="{{ theme.vendors[underscore] | default(internal_underscore_script) }}"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">

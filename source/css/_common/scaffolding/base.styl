@@ -39,7 +39,7 @@ for headline in (1..6) {
   }
 }
 
-p { margin: 0 0 25px 0; }
+p { margin: 0 0 10px 0; }
 
 a {
   color: $link-color;
@@ -50,6 +50,7 @@ a {
   &:hover {
     color: $link-hover-color;
     border-bottom-color: $link-decoration-hover-color;
+    text-decoration: none;
   }
 }
 
@@ -58,6 +59,7 @@ ul { list-style: none; }
 blockquote {
   margin: 0;
   padding: 0;
+  font-size: inherit;
 }
 
 img {

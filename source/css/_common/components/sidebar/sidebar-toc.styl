@@ -22,10 +22,19 @@
     transition-property: all;
     color: $toc-link-color;
     border-bottom-color: $toc-link-border-color;
+    padding: 0;
+    text-decoration: none;
+    display: inline;
 
     &:hover {
       color: $toc-link-hover-color;
       border-bottom-color: $toc-link-hover-border-color;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    &:focus {
+      text-decoration: none;
+      background-color: transparent;
     }
   }
 }
