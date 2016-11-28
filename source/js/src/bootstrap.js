@@ -29,16 +29,17 @@ $(document).ready(function () {
 
 
   // Define Motion Sequence.
-  NexT.motion.integrator
+  CONFIG.motion &&  NexT.motion.integrator
     .add(NexT.motion.middleWares.logo)
     .add(NexT.motion.middleWares.menu)
-    .add(NexT.motion.middleWares.postList)
-    .add(NexT.motion.middleWares.sidebar);
+    .add(NexT.motion.middleWares.postList);
+
+  NexT.motion.integrator.add(NexT.motion.middleWares.sidebar);
 
   $(document).trigger('motion:before');
 
   // Bootstrap Motion.
-  CONFIG.motion && NexT.motion.integrator.bootstrap();
+  NexT.motion.integrator.bootstrap();
 
   $(document).trigger('bootstrap:after');
 });
