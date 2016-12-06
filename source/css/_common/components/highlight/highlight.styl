@@ -62,8 +62,11 @@ pre {
     clearfix();
     font-size: 1em;
     color: $highlight-foreground;
-    line-height: 1em;
-    margin-bottom: 1em;
+    line-height: 20px/*1em*/;
+    padding: 5px;
+    background-color: $highlight-gutter.bg-color;
+    border-bottom: 2px dashed $highlight-comment;
+    /*margin-bottom: 1em;*/
 
     a {
       float: right;

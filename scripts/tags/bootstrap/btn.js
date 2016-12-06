@@ -25,6 +25,5 @@
 // size xs sm lg
 
 module.exports = (args, content) => {
-  return `<a class="bootcss btn btn-${args[2] || 'default'} btn-${args[3] || 'sm'}" href="${args[1] || 'javascript: void(0)'}">${args[0] || 'link'}</a>`;
+  return `<a class="bootcss btn btn-${args[2] || 'default'} btn-${args[3] || 'sm'}" target="_blank" href="${args[1] || 'javascript: void(0)'}">${args[0] || 'link'}</a>`;
 };
-
